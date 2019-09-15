@@ -28,7 +28,7 @@ fi
 
 echo "# Copy HTML files into project poplp.github.io"
 
-copy -rf $HTML_SOURCE_FILES/* $HTML_TARGET
+cp -rf $HTML_SOURCE_FILES/* $HTML_TARGET
 
 cd $HTML_TARGET
 
