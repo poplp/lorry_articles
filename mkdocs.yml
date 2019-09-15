@@ -1,3 +1,6 @@
 site_name: Lorry's Docs
 theme:
     name: 'material'
+pages:
+- [index.md, Home]
+- [about.md, About]
