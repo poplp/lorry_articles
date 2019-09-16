@@ -1,6 +1,30 @@
 site_name: Lorry's Docs
 theme:
     name: 'material'
+    language: 'zh'
+    feature:
+        tabs: true
+markdown_extensions:
+    - admonition
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
 nav:
-    - Home: index.md
-    - About: about.md
+    - Home: 'index.md'
+    - '大数据': 
+        - '大数据平台开发应知应会': bigdata_platform_dev.md
+        - 'java 代码规范': bigdata_platform_dev/java_code_rule.md
+    - About: 'about.md'
