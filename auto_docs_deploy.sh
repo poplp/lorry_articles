@@ -17,21 +17,4 @@ git add -A && git commit -m "$MSG" && git push
 echo "# mk format files are uploaded..."
 echo "# End of uploading mk format files."
 
-echo "# Start to deploy HTML files into poplp.github.io"
-echo "# Check poplp.github.io project is cloned or not."
-
-cd ../
-pwd
-if [ ! -d "$HTML_PROJECT" ]; then
-    git clone git@github.com:poplp/poplp.github.io.git
-fi
-
-echo "# Copy HTML files into project poplp.github.io"
-
-cp -rf $HTML_SOURCE_FILES/* $HTML_TARGET
-
-cd $HTML_TARGET
-
-git add -A && git commit -m "$MSG" && git push
-
-echo "# End of deploy HTML files."
+echo "# Start to deploy HTML files into aliyun"
