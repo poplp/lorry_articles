@@ -18,8 +18,7 @@ markdown_extensions:
     - pymdownx.tasklist:
         custom_checkbox: true
 nav:
-    - Home: 'index.md'
+    - 'Home': 'index.md'
     - '大数据': 
         - '大数据平台开发应知应会': bigdata_platform_dev.md
         - 'java 代码规范': bigdata_platform_dev/java_code_rule.md
-    - About: 'about.md'
