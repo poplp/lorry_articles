@@ -19,7 +19,12 @@ markdown_extensions:
         custom_checkbox: true
 nav:
     - 'Home': 'index.md'
+<<<<<<< Updated upstream
     - '给程序员的7个编程建议': '7programming_suggestions.md'
+=======
+    - '代码涉及原则': 'code_principle.md'
+    - '7个编程建议': '7practices.md'
+>>>>>>> Stashed changes
     - '大数据': 
         - '大数据平台开发应知应会': bigdata_platform_dev.md
         - 'java 代码规范': bigdata_platform_dev/java_code_rule.md
